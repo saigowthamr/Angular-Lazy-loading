@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    box-shadow:  0 .4rem .3rem black;
+    padding: .3rem;
+    border-radius: .3rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.center{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    background-color: aliceblue;
+}
+
+.active{
+    color: red;
+}

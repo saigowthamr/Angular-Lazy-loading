@@ -1,0 +1,9 @@
+<div>Posts</div>
+
+<h1 *ngIf="show" else elseBlock>Loading...</h1>
+
+
+<ul #elseBlock>
+  <li *ngFor="let person of data">{{person.name}}</li>
+</ul>
+
